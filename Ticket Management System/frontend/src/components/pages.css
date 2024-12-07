@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.parties,
+.clients, 
+.salespersons{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    font-size:2rem;
+    font-family: "Lato", sans-serif;
+}
+.layout-container{
+    display: flex;
+}
+
+.content-container{
+    flex: 1;
+}
+
+
+.party-table{
+    flex: 1;
+    padding: 50px 100px 50px 100px;
+    font-size: 1rem;
+}
+
+.salesperson-table{
+    flex: 1;
+    padding: 50px 100px 50px 100px;
+    font-size: 1rem;
+}
+
+.client-table{
+    flex: 1;
+    padding: 50px 100px 50px 100px;
+    font-size: 1rem;
+}
+
+
+.table.table-striped{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table.table-striped th,
+.table.table-striped td{
+    padding: 15px;
+}
+
+.dashboard-message{
+    flex: 1;
+    margin-top: 75px;
+    margin-left: 225px;
+}
+
+.party-first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.party-first-line a{
+    align-items: center;
+    display: flex;
+}
+
+.party-first-line h1{
+    margin-left: 10px;
+}
+
+.salesperson-first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.salesperson-first-line a{
+    align-items: center;
+    display: flex;
+}
+
+.salesperson-first-line h1{
+    margin-left: 10px;
+}
+
+.client-first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.client-first-line a{
+    align-items: center;
+    display: flex;
+}
+
+.client-first-line h1{
+    margin-left: 10px;
+}
+
+.add-party-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-party-container h2{
+    padding: 20px;
+}
+
+.add-party-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    align-self: center;
+}
+
+.add-party-container button{
+    width: 200px;
+    align-self: center;
+}
+
+.add-salesperson-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-salesperson-container h2{
+    padding: 20px;
+}
+
+.add-salesperson-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    align-self: center;
+}
+
+.add-salesperson-container button{
+    width: 200px;
+    align-self: center;
+}
+
+.add-client-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-client-container h2{
+    padding: 20px;
+}
+
+.add-client-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    align-self: center;
+}
+
+.add-client-container button{
+    width: 200px;
+    align-self: center;
+}
+
+.salesperson-url {
+    color: blue !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.banner-url {
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: blue !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+td.payment-url{
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: blue !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+select#gender{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 125px;
+}
+
+button.btn.btn-link.m-2 {
+    border: 1px solid !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+i.bi.bi-qr-code.bi-7x {
+    font-size: 1.1rem !important;
+}
